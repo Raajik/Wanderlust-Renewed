@@ -284,7 +284,7 @@
         [[null, <xreliquary:mob_ingredient>, null],
         [<evilcraft:condensed_blood>, <dungeontactics:flower_sanguine>, <evilcraft:condensed_blood>],
         [<xreliquary:mob_ingredient:6>, <xreliquary:mob_ingredient>, <xreliquary:mob_ingredient:6>]]);
-    mods.thaumcraft.Crucible.registerRecipe("essence_false_life", "", <magicbees:resource:7>, <bloodmagic:item_demon_crystal>, [<aspect:victus> * 12]);
+    mods.thaumcraft.Crucible.registerRecipe("essence_false_life", "", <magicbees:resource:7>, <bloodmagic:item_demon_crystal>, [<aspect:victus> * 12, <aspect:bestia> * 4, <aspect:praecantatio> * 4]);
 
     # Essence of a Shallow Grave
     recipes.addShaped(<magicbees:resource:8>,
@@ -295,6 +295,7 @@
         [[<evilcraft:dark_gem_crushed>, null, <evilcraft:dark_gem_crushed>],
         [<xreliquary:mob_ingredient:3>, <dungeontactics:flower_ailment>, <xreliquary:mob_ingredient:3>],
         [<xreliquary:mob_ingredient:7>, null, <xreliquary:mob_ingredient>]]);
+    mods.thaumcraft.Crucible.registerRecipe("essence_shallow_grave", "", <magicbees:resource:8>, <bloodmagic:item_demon_crystal:1>, [<aspect:mortuus> * 12, <aspect:bestia> * 4, <aspect:praecantatio> * 4]);
     # Essence of Fickle Permanence
     recipes.addShaped(<magicbees:resource:12>,
         [[null, <botania:rune>, null],
@@ -304,6 +305,7 @@
         [[null, <evilcraft:blook>, null],
         [<xreliquary:mob_ingredient:3>, <dungeontactics:flower_ailment>, <xreliquary:mob_ingredient:3>],
         [<xreliquary:mob_ingredient:1>, <ore:listAllseed>, <xreliquary:mob_ingredient:1>]]);
+    mods.thaumcraft.Crucible.registerRecipe("essence_fickle_permanence", "", <magicbees:resource:12>, <bloodmagic:item_demon_crystal:2>, [<aspect:potentia> * 12, <aspect:bestia> * 4, <aspect:praecantatio> * 4]);
     # Essence of Lost Time
     recipes.addShaped(<magicbees:resource:9>,
         [[null, <botania:rune>, null],
@@ -313,6 +315,7 @@
         [[<xreliquary:mob_ingredient>, null, <xreliquary:mob_ingredient>],
         [<xreliquary:mob_ingredient:1>, <dungeontactics:flower_tangle>, <xreliquary:mob_ingredient:1>],
         [null, <evilcraft:potentia_sphere>, null]]);
+    mods.thaumcraft.Crucible.registerRecipe("essence_lost_time", "", <magicbees:resource:9>, <bloodmagic:item_demon_crystal:3>, [<aspect:gelum> * 12, <aspect:bestia> * 4, <aspect:praecantatio> * 4]);
     # Essence of Everlasting Durability
     recipes.addShaped(<magicbees:resource:10>,
         [[null, <botania:rune:2>, null],
@@ -322,6 +325,7 @@
         [[null, null, null],
         [<xreliquary:mob_ingredient:4>, <dungeontactics:flower_bark>, <xreliquary:mob_ingredient:4>],
         [<evilcraft:dark_gem>, <xreliquary:mob_ingredient:10>, <evilcraft:dark_gem>]]);
+    mods.thaumcraft.Crucible.registerRecipe("essence_everlasting_durability", "", <magicbees:resource:10>, <bloodmagic:item_demon_crystal:4>, [<aspect:praemunio> * 12, <aspect:bestia> * 4, <aspect:praecantatio> * 4]);
     # Essence of Scornful Oblivion
     #recipes.addShaped(<magicbees:resource:11> * 3,
     #    [[<botania:rune:12>, <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000}), <thermalfoundation:material:894>],
